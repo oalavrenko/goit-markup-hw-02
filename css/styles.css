@@ -1,51 +1,39 @@
-.main {font-family: 'Roboto';
-    text-decoration: none;}
+.main {font-family: 'Roboto', sans-serif;
+    color: #434455;
+    text-decoration: none;
+    background-color: #FFFFFF}
 
-.hero-title{
+.header1{line-height: 1.07;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;}
-.logo{width: 44px;
-    height: 21px;
-    font-family: 'Raleway';
+.logo{
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;}
-.logo1 {color: #4D5AE5;}
-.logo2 {color: #2E2F42;}
-.navigation-list {list-style: none;
-    }
-.navigation {
     text-decoration: none;
-    width: 48px;
-    height: 24px;
-    font-style: normal;
+    color: #4d5ae5;}
+.logo1 {color: #2e2f42}
+.nav-link {
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42
-}
+    color: #2e2f42;
     
-.nav_el{
-    width: 48px;
-    height: 24px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #4dbc8a;
+}
+.nav-link:focus {color: #404bbf;}
+.nav-link:hover {
+    color: #404bbf;
 }
 .contact {font-style: normal;
     font-weight: 400;
@@ -55,27 +43,25 @@
     color: #434455;
    
     text-decoration: none;}
-.contact-list {
-list-style: none;
+.contact:focus {color:#404bbf;}
+.contact:hover {
+    color: #404bbf;
 }
+
 .button {background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    width: 105px;
-    height: 24px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    width: 169px;
-    height: 56px;
-    left: 636px;
-    top: 428px;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer
     }
+.button:focus{color:#404BBF;}
+.button:hover{
+    color: #404BBF;
+}
 .principlesoverall {
     list-style: none    
 }
@@ -115,8 +101,6 @@ list-style: none;
 }
 
 .teamjob {
-    width: 128px;
-    height: 24px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -132,22 +116,11 @@ list-style: none;
     color: #F4F4FD;
 }
 .filter:hover .filter:focus {background: #404BBF;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-        0px 2px 1px rgba(0, 0, 0, 0.08),
-        0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    width: 69px;
-    height: 48px;}
-.filter{
-    box-sizing: border-box;
-    width: 116px;
-    height: 48px;
-    background: #F4F4FD;
     border: 1px solid #E7E9FC;
-    border-radius: 4px;
      }
 .link {text-decoration: none;}
-
+.list {list-style: none;}
+.section1 {background-color:#2e2f42;}
 
 
 
