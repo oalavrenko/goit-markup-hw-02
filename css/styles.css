@@ -1,11 +1,14 @@
-:root {font-family: 'Roboto', sans-serif;
-    color: #434455;
-    text-decoration: none;
-    background-color: #FFFFFF}
+:root {}
+
+
 :root {--primary-brand-color: #4D5AE5;
        --pressed-state: #404BBF;
        --navy-blue: #2e2f42;
        --white: #FFFFFF;
+        font-family: 'Roboto', sans-serif;
+        color: #434455;
+        text-decoration: none;
+        background-color: #FFFFFF;
        }
 
 .header-one{line-height: 1.07;
