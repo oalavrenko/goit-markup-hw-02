@@ -4,7 +4,9 @@
     background-color: #FFFFFF}
 :root {--primary-brand-color: #4D5AE5;
        --pressed-state: #404BBF;
-       --navy-blue: #2e2f42;}
+       --navy-blue: #2e2f42;
+       --white: #FFFFFF;
+       }
 
 .header-one{line-height: 1.07;
     font-style: normal;
@@ -12,7 +14,7 @@
     font-size: 56px;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #FFFFFF;}
+    color:var(--white);}
 .logo{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
