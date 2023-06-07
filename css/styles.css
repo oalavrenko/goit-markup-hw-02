@@ -16,12 +16,12 @@
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;}
 .logo-one {color: #2e2f42}
+.logo-two {color: #f4f4fd}
 .nav-link {
     font-weight: 500;
     font-size: 16px;
@@ -42,13 +42,13 @@
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;}
+
 .nav{color:#2e2f42;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;}
-   
    
 .contact:focus {color:#404bbf;}
 .contact:hover {
@@ -65,12 +65,12 @@
     font-family: "Roboto", sans-serif;
     cursor: pointer;
     }
-.button:focus{color:#404BBF;}
-.button:hover{
-    color: #404BBF;
+.button:focus {background-color:#404BBF;}
+.button:hover {
+    background-color: #404BBF;
 }
 .principlesoverall {
-    list-style: none    
+    list-style: none;    
 }
 .header-three {
     font-style: normal;
@@ -91,13 +91,13 @@
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;}
-.pic-list {
-    list-style: none;
-}
+    color: #2E2F42;
+    line-height: 1.11;}
+.section-four {background-color: #F4F4FD;}
+
 .teamjob {
     font-style: normal;
     font-weight: 400;
@@ -112,13 +112,29 @@
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
-.filter:hover .filter:focus {background: #404BBF;
+.filter:hover {background: #404BBF;
     border: 1px solid #E7E9FC;
+    color: #FFFFFF;
      }
+.filter:focus {
+        color: #FFFFFF;
+        background: #404BBF;
+        border: 1px solid #E7E9FC;
+    }
+.filter {font-family: "Roboto", sans-serif;
+         font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #4d5ae5;
+        background-color: #F4F4FD;
+        cursor: pointer;
+}
 .link {text-decoration: none;}
 .list {list-style: none;}
 .section-one {background-color:#2e2f42;}
 .footer{background-color:#2e2f42;}
+
 
 
 
