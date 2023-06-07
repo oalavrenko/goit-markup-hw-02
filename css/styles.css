@@ -29,19 +29,26 @@
     color: #2e2f42;
     
 }
-.nav-link:focus {color: #404bbf;}
-.nav-link:hover {
+.nav:focus {color: #404bbf;}
+.nav:hover {
     color: #404bbf;
 }
 .contact-nav {font-style: normal;}
 .contact {font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
-   
     text-decoration: none;}
+.nav{color:#2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;}
+   
+   
 .contact:focus {color:#404bbf;}
 .contact:hover {
     color: #404bbf;
