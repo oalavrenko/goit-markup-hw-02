@@ -1,4 +1,4 @@
-.main {font-family: 'Roboto', sans-serif;
+:root {font-family: 'Roboto', sans-serif;
     color: #434455;
     text-decoration: none;
     background-color: #FFFFFF}
@@ -7,7 +7,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;}
 .logo{
@@ -17,7 +16,6 @@
     font-size: 18px;
     line-height: 1.17;
     display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -35,6 +33,7 @@
 .nav-link:hover {
     color: #404bbf;
 }
+.contact-nav {font-style: normal;}
 .contact {font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -56,7 +55,7 @@
     letter-spacing: 0.04em;
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
-    cursor: pointer
+    cursor: pointer_
     }
 .button:focus{color:#404BBF;}
 .button:hover{
@@ -85,7 +84,6 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;}
@@ -105,7 +103,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #434455
 }
