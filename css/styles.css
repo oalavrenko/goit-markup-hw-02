@@ -2,6 +2,9 @@
     color: #434455;
     text-decoration: none;
     background-color: #FFFFFF}
+:root {--primary-brand-color: #4D5AE5;
+       --pressed-state: #404BBF;
+       --navy-blue: #2e2f42;}
 
 .header-one{line-height: 1.07;
     font-style: normal;
@@ -97,6 +100,13 @@
     color: #2E2F42;
     line-height: 1.11;}
 .section-four {background-color: #F4F4FD;}
+.team {background-color: #FFFFFF;}
+.header-portf {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;}
 
 .teamjob {
     font-style: normal;
